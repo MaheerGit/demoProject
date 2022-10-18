@@ -25,38 +25,36 @@ td,th {border:1px solid #009;padding:.25em .5em}
 <body>
 <table cellspacing="0" cellpadding="0" class="testOverview">
 <tr><th>Test</th><th>Methods<br/>Passed</th><th>Scenarios<br/>Passed</th><th># skipped</th><th># failed</th><th>Total<br/>Time</th><th>Included<br/>Groups</th><th>Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em"><a href="#t1">pnc-sdet-api</a></td><td class="numi">13</td><td class="numi">13</td><td class="numi">0</td><td class="numi">0</td><td class="numi">22.9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em"><a href="#t1">pnc-sdet-api</a></td><td class="numi">12</td><td class="numi">12</td><td class="numi">0</td><td class="numi">0</td><td class="numi">20.8 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="methodOverview" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
 <tr id="t1"><th colspan="5">pnc-sdet-api &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="13">APITest</td><td><a href="#m1"><b>verifyAllCountriesAPI_statusCode</b>  </a></td><td class="numi">1</td><td>1666089743894</td><td class="numi">3219</td></tr><tr class="passedodd"><td><a href="#m2"><b>verifyNameAPI_responseBody_WHEN_CODE_EXIST</b>  </a></td><td class="numi">1</td><td>1666089755125</td><td class="numi">875</td></tr><tr class="passedodd"><td><a href="#m3"><b>verifyAllCountries_nameShouldNotEmptyOrNull</b>  </a></td><td class="numi">1</td><td>1666089748910</td><td class="numi">1558</td></tr><tr class="passedodd"><td><a href="#m4"><b>verifyAllCountries_sizeShouldNotEmpty</b>  </a></td><td class="numi">1</td><td>1666089750469</td><td class="numi">1479</td></tr><tr class="passedodd"><td><a href="#m5"><b>verifyNameAPI_WHEN_NAME_NOT_EXIST</b>  </a></td><td class="numi">1</td><td>1666089754418</td><td class="numi">706</td></tr><tr class="passedodd"><td><a href="#m6"><b>verifyAllCountriesAPI_responseBody</b>  </a></td><td class="numi">1</td><td>1666089735403</td><td class="numi">8482</td></tr><tr class="passedodd"><td><a href="#m7"><b>verifyNameAPI_WHEN_CODE_NOT_EXIST</b>  </a></td><td class="numi">1</td><td>1666089753613</td><td class="numi">804</td></tr><tr class="passedodd"><td><a href="#m8"><b>verifyNameAPI_responseCode200_WHEN_NAME_EXIST</b>  </a></td><td class="numi">1</td><td>1666089757423</td><td class="numi">728</td></tr><tr class="passedodd"><td><a href="#m9"><b>verifyNameAPI_responseBody_WHEN_NAME_EXIST</b>  </a></td><td class="numi">1</td><td>1666089756000</td><td class="numi">689</td></tr><tr class="passedodd"><td><a href="#m10"><b>verifyAllCountries_capital</b>  </a></td><td class="numi">1</td><td>1666089747119</td><td class="numi">1783</td></tr><tr class="passedodd"><td><a href="#m11"><b>verifyNameAPI_WHEN_BLANK_CODE</b>  </a></td><td class="numi">1</td><td>1666089751949</td><td class="numi">807</td></tr><tr class="passedodd"><td><a href="#m12"><b>verifyNameAPI_WHEN_BLANK_NAME</b>  </a></td><td class="numi">1</td><td>1666089752757</td><td class="numi">855</td></tr><tr class="passedodd"><td><a href="#m13"><b>verifyNameAPI_responseCode200_WHEN_CODE_EXIST</b>  </a></td><td class="numi">1</td><td>1666089756690</td><td class="numi">732</td></tr>
+<tr class="passedodd"><td rowspan="12">APITest</td><td><a href="#m1"><b>verifyNameAPI_when_name_blank</b>  </a></td><td class="numi">1</td><td>1666090670121</td><td class="numi">716</td></tr><tr class="passedodd"><td><a href="#m2"><b>verifyCodeAPI_responseCode_when_code_exist</b>  </a></td><td class="numi">1</td><td>1666090666605</td><td class="numi">724</td></tr><tr class="passedodd"><td><a href="#m3"><b>verifyAllCountries_sizeShouldNotEmpty</b>  </a></td><td class="numi">1</td><td>1666090663101</td><td class="numi">2731</td></tr><tr class="passedodd"><td><a href="#m4"><b>verifyAllCountries_nameShouldNotEmptyOrNull</b>  </a></td><td class="numi">1</td><td>1666090660157</td><td class="numi">2936</td></tr><tr class="passedodd"><td><a href="#m5"><b>verifyNameAPI_responseBody_when_name_exist</b>  </a></td><td class="numi">1</td><td>1666090668725</td><td class="numi">691</td></tr><tr class="passedodd"><td><a href="#m6"><b>verifyAllCountriesAPI_responseBody</b>  </a></td><td class="numi">1</td><td>1666090650864</td><td class="numi">6532</td></tr><tr class="passedodd"><td><a href="#m7"><b>verifyCodeAPI_responseBody_when_code_exist</b>  </a></td><td class="numi">1</td><td>1666090665833</td><td class="numi">771</td></tr><tr class="passedodd"><td><a href="#m8"><b>verifyCodeAPI_when_code_blank</b>  </a></td><td class="numi">1</td><td>1666090667333</td><td class="numi">693</td></tr><tr class="passedodd"><td><a href="#m9"><b>verifyCodeAPI_when_code_not_exist</b>  </a></td><td class="numi">1</td><td>1666090668028</td><td class="numi">696</td></tr><tr class="passedodd"><td><a href="#m10"><b>verifyNameAPI_when_name_not_exist</b>  </a></td><td class="numi">1</td><td>1666090670838</td><td class="numi">715</td></tr><tr class="passedodd"><td><a href="#m11"><b>verifyNameAPI_responseCode_when_name_exist</b>  </a></td><td class="numi">1</td><td>1666090669417</td><td class="numi">704</td></tr><tr class="passedodd"><td><a href="#m12"><b>verifyAllCountriesAPI_statusCode</b>  </a></td><td class="numi">1</td><td>1666090657401</td><td class="numi">2754</td></tr>
 </table>
 <h1>pnc-sdet-api</h1>
-<h2 id="m1">APITest:verifyAllCountriesAPI_statusCode</h2>
+<h2 id="m1">APITest:verifyNameAPI_when_name_blank</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m2">APITest:verifyNameAPI_responseBody_WHEN_CODE_EXIST</h2>
+<h2 id="m2">APITest:verifyAllCountries_sizeShouldNotEmpty</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 <h2 id="m3">APITest:verifyAllCountries_nameShouldNotEmptyOrNull</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m4">APITest:verifyAllCountries_sizeShouldNotEmpty</h2>
+<h2 id="m4">APITest:verifyAllCountriesAPI_responseBody</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m5">APITest:verifyNameAPI_WHEN_NAME_NOT_EXIST</h2>
+<h2 id="m5">APITest:verifyCodeAPI_responseCode_when_code_exist</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m6">APITest:verifyAllCountriesAPI_responseBody</h2>
+<h2 id="m6">APITest:verifyNameAPI_responseBody_when_name_exist</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m7">APITest:verifyNameAPI_WHEN_CODE_NOT_EXIST</h2>
+<h2 id="m7">APITest:verifyCodeAPI_responseBody_when_code_exist</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m8">APITest:verifyNameAPI_responseCode200_WHEN_NAME_EXIST</h2>
+<h2 id="m8">APITest:verifyCodeAPI_when_code_blank</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m9">APITest:verifyNameAPI_responseBody_WHEN_NAME_EXIST</h2>
+<h2 id="m9">APITest:verifyCodeAPI_when_code_not_exist</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m10">APITest:verifyAllCountries_capital</h2>
+<h2 id="m10">APITest:verifyNameAPI_when_name_not_exist</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m11">APITest:verifyNameAPI_WHEN_BLANK_CODE</h2>
+<h2 id="m11">APITest:verifyNameAPI_responseCode_when_name_exist</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m12">APITest:verifyNameAPI_WHEN_BLANK_NAME</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m13">APITest:verifyNameAPI_responseCode200_WHEN_CODE_EXIST</h2>
+<h2 id="m12">APITest:verifyAllCountriesAPI_statusCode</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>
